@@ -73,10 +73,79 @@
 
 // =======================================================
 
-const dataActual = new Date()
+// const dataActual = new Date().getDay() - 2
 
-const dataPrevious = new Date().getDate() - 1
+// const dataPrevious = new Date().getDate() - 1
 
-if(){
+//  if(dataActual > dataPrevious){
+//      console.log('Hoje é dia de trabalhar')
+//  }
 
-}
+//     if(dataActual < dataPrevious){
+
+//         console.log('Hoje é dia de descansar')
+//     }
+
+
+// =======================================================
+
+
+// const birthday = new Date('1997-04-27')
+
+// const age = new Date().getFullYear() - birthday.getFullYear()
+
+// console.log(age)
+
+// =======================================================
+
+
+// const data = new Date();
+// const hours = data.getHours();
+
+
+// if (hours >= 0 && hours <= 11) {
+//   console.log("Bom dia");
+// } else if (hours >= 12 &&  hours <= 18 ) {
+//   console.log("Boa tarde");
+// } else {
+//   console.log("Boa noite");
+// }
+
+
+// console.log(hours.toString());
+
+// =======================================================
+
+// console.log(new Date().toLocaleString('pt-BR', {
+//     timeZone: 'America/Sao_Paulo',
+//     hour12: false,
+//     hour: 'numeric',
+//     minute: 'numeric',
+//     second: 'numeric',
+//     timeZoneName: 'short'
+//     }));
+
+// =======================================================
+
+
+
+// Faz a função sem parar de executar!
+// setInterval(() => {
+//     const data1 = new Date()
+
+//     console.log(data1.toLocaleString('pt-BR', {
+//         timeZone: 'America/Sao_Paulo',
+//         hour12: false,
+//         hour: 'numeric',
+//         minute: 'numeric',
+//         second: 'numeric',
+//         timeZoneName: 'short'
+//         }))
+// }, 1000);
+
+
+
+// Faz a função 1 vez e espera o tempo!
+setTimeout(() => {
+    console.log('Fim')
+}, 5000);
