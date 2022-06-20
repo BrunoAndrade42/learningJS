@@ -71,10 +71,29 @@ console.log(reverse) // [ 6, 5, 4, 3, 2, 1 ]
 
 ## Objects | Exemplo de Objects na pasta Object
 
-## Strings | Exemplo de Objects na pasta String
+## Strings | Exemplo de Strings na pasta String
 
 ## new MAP e new Set
 
+O objeto Map contém pares de chave-valor e lembra a ordem original da inserção das chaves. Qualquer valor (objetos e valores primitivos) podem ser usados como chave ou valor.
+
+const map1 = new Map();
+
+map1.set('a', 1);
+map1.set('b', 2);
+map1.set('c', 3);
+
+console.log(map1.get('a')); // 1
+
+map1.set('a', 97);
+
+console.log(map1.get('a')); // 97
+
+console.log(map1.size); // 3
+
+map1.delete('b');
+
+console.log(map1.size); // 2
 
 
 Objetos Set são coleções de valores nas quais é possível iterar os elementos em ordem de inserção. Um valor no Set pode ocorrer apenas uma vez; ele é único na coleção do Set.
