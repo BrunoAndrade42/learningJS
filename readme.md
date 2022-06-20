@@ -76,7 +76,7 @@ console.log(reverse) // [ 6, 5, 4, 3, 2, 1 ]
 ## new MAP e new Set
 
 O objeto Map contém pares de chave-valor e lembra a ordem original da inserção das chaves. Qualquer valor (objetos e valores primitivos) podem ser usados como chave ou valor.
-
+```sh
 const map1 = new Map();
 
 map1.set('a', 1);
@@ -94,7 +94,7 @@ console.log(map1.size); // 3
 map1.delete('b');
 
 console.log(map1.size); // 2
-
+```
 
 Objetos Set são coleções de valores nas quais é possível iterar os elementos em ordem de inserção. Um valor no Set pode ocorrer apenas uma vez; ele é único na coleção do Set.
 
