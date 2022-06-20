@@ -76,6 +76,9 @@ console.log(reverse) // [ 6, 5, 4, 3, 2, 1 ]
 ## new MAP e new Set
 
 
+
+Objetos Set são coleções de valores nas quais é possível iterar os elementos em ordem de inserção. Um valor no Set pode ocorrer apenas uma vez; ele é único na coleção do Set.
+
 ```sh
 const meuSet = new Set();
 
